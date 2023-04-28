@@ -1,0 +1,38 @@
+.mail{
+    width: 100%;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mailTitle{
+    margin-top: 20px;
+}
+
+.mailInputContainer>input{
+    width: 250px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.mailInputContainer>button{
+    height: 40px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mailInputContainer>button:hover{
+    background: rgb(95, 93, 93);
+}
